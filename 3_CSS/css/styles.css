@@ -6,3 +6,92 @@ body {
 h3 {
     color: green;
 }
+
+/* Classes */
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* Id's */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+/* Ordem das regras */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.title {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+
+.color-name {
+    color: crimson;
+}
+/* Cor com hexadecimal */
+.hex {
+    color: #55a3b5;
+}
+/* Cor com hexadecimal */
+.hex-2 {
+    color: #5b9d77;
+}
+/* Cor com hexadecimal */
+.hex-simplificado {
+    color: #6af;
+    /* Simplificamos #66AAFF */
+}
+/* Cor com hexadecimal */
+.hex-simplficado2 {
+    color: #7db;
+    /* Simplificamos #77DDBB */
+}
+/* Cor com RGB */
+.rgb {
+    color: rgb(222, 90, 10);
+}
+/* Cor com RGB */
+.mixed-rgb {
+    color: rgb(90, 57, 200);
+}
+/* Cor com RGBa */
+.rgba {
+    color: rgba(30, 40, 50, 3);
+}
+/* Cor com HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+.bg {
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+.bg-2 {
+    background-color: coral;
+    color: #ddff66;
+}
+
+.bg-opacity {
+    background-color: burlywood;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: burlywood;
+    color: #000;
+    opacity: 0.8;
+}
