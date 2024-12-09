@@ -30,7 +30,7 @@ h2 {
 .title {
     border-bottom: 3px solid blue;
 }
-
+/* Id's */
 #algum-titulo {
     border-bottom: 4px solid green;
 }
@@ -44,16 +44,16 @@ h2 {
 .hex {
     color: #55a3b5;
 }
-/* Cor com hexadecimal */
+
 .hex-2 {
     color: #5b9d77;
 }
-/* Cor com hexadecimal */
+
 .hex-simplificado {
     color: #6af;
     /* Simplificamos #66AAFF */
 }
-/* Cor com hexadecimal */
+
 .hex-simplficado2 {
     color: #7db;
     /* Simplificamos #77DDBB */
@@ -62,7 +62,7 @@ h2 {
 .rgb {
     color: rgb(222, 90, 10);
 }
-/* Cor com RGB */
+
 .mixed-rgb {
     color: rgb(90, 57, 200);
 }
@@ -74,7 +74,7 @@ h2 {
 .hsl {
     color: hsl(100, 20%, 50%);
 }
-
+/* Cor do Background */
 .bg {
     background-color: chocolate;
     color: aliceblue;
@@ -84,7 +84,7 @@ h2 {
     background-color: coral;
     color: #ddff66;
 }
-
+/* Opacidade do Background */
 .bg-opacity {
     background-color: burlywood;
     opacity: 0.2;
@@ -94,4 +94,27 @@ h2 {
     background-color: burlywood;
     color: #000;
     opacity: 0.8;
+}
+/* Opacidade do Background com RGBa */
+.rgba-opacity {
+    background-color: rgba(50, 30, 123, 0.2);
+    color: #000;
+}
+
+.bg-image {
+    background-image: url("../img/nature.jpg");
+    color: #fff;
+    padding: 20px;
+}
+
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
 }
